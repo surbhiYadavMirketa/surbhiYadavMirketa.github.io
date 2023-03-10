@@ -1,18 +1,52 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<!-- CSS only -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 	<!-- JavaScript Bundle with Popper -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+        .img{
+            margin:-5px 10px 10px 10px;
+            height: 45px;
+        }
+        h1{
+            font-weight: 600;
+            font-family: 'Montserrat', sans-serif;
+        }
+        table,th,td{
+            border: 2px solid grey;
+            background-color: rgb(231, 255, 250); 
+            table-layout: auto;
+            width: 15px;
+			font-weight: 600;
+			
+        }
+		th:hover,td:hover{
+			background-color: rgb(241, 240, 240);
+			cursor: pointer;
+		}
+		body{
+			background-color:rgb(246, 231, 170);
+		}
+    </style>
 </head>
 <body class="container">
-	<h1>Surbhi's Journal</h1>
+    <div class="box">
+        <img class="img" src="./download.png" alt="">
+        <h1 style="display: inline-block;">Surbhi's Journal</h1>
+    </div>
 	<table class="table">
-		<thead class="bg-warning">
+		<thead class="bg-secondary">
 			<tr>
-				<th>Date</th>
-				<th>Notes</th>
+				<th style="color:white">Date</th>
+				<th style="color:white">Notes</th>
 			</tr>
 		</thead>
 		<tbody >
